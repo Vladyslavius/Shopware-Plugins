@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/shopware/shopware/5.3/engine/Shopware/Components/Plugin/schema/plugin.xsd">
+
+    <label lang="en">shopagThemeKit</label>
+    <label lang="de">shopagThemeKit</label>
+
+    <version>1.0.0</version>
+    <copyright>(c) shopag</copyright>
+    <author>shopag</author>
+    <description><![CDATA[
+        <h1 style="color:green">Plugin Description</h1> <br/><ul><li>This plugin is developed to customize Bare theme of Shopware</li>
+        </ul>
+    ]]></description>
+    <compatibility minVersion="5.3.0"/>
+</plugin>

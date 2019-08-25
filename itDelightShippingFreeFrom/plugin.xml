@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="../../../engine/Shopware/Components/Plugin/schema/plugin.xsd">
+
+    <label lang="de">ITDelight Fix Shipping Methods</label>
+    <label lang="en">ITDelight Fix Shipping</label>
+
+    <version>1.0.0</version>
+    <copyright>(c) by ITDelight AG</copyright>
+    <link>https://www.itdelight.com/</link>
+    <author>ITDelight</author>
+    <compatibility minVersion="5.3.0" />
+</plugin>

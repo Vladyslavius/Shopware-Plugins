@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/shopware/shopware/5.2/engine/Shopware/Components/Plugin/schema/config.xsd">
+    <elements>
+        <element required="true" type="text" scope="locale">
+            <name>wpu_xmlcharts_key</name>
+            <label lang="de">Xmlcharts API-Key</label>
+            <label lang="en">Xmlcharts API key</label>
+            <value></value>
+        </element>
+        <element required="true" type="interval" scope="locale">
+            <name>wpu_cron_interval</name>
+            <label lang="de">Cron-Intervall</label>
+            <label lang="en">Cron interval</label>
+            <value>300</value>
+        </element>
+        <element required="true" type="text" scope="locale">
+            <name>wpu_metall_silver</name>
+            <label lang="de">Silber, Aufschlag</label>
+            <label lang="en">Silver, markup</label>
+            <value>5%</value>
+        </element>
+        <element required="true" type="text" scope="locale">
+            <name>wpu_metall_gold</name>
+            <label lang="de">Gold, Aufschlag</label>
+            <label lang="en">Gold, markup</label>
+            <value>5%</value>
+        </element>
+        <element required="true" type="text" scope="locale">
+            <name>wpu_metall_platinum</name>
+            <label lang="de">Platinum, Aufschlag</label>
+            <label lang="en">Platinum, markup</label>
+            <value>5%</value>
+        </element>
+        <element required="true" type="text" scope="locale">
+            <name>wpu_metall_palladium</name>
+            <label lang="de">Palladium, Aufschlag</label>
+            <label lang="en">Palladium, markup</label>
+            <value>5%</value>
+        </element>
+    </elements>
+</config>
