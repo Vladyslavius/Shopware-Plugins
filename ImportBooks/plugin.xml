@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="../../../engine/Shopware/Components/Plugin/schema/plugin.xsd">
+    <label lang="de">Import Books</label>
+    <label lang="en">Import Books</label>
+    <version>1.0.0</version>
+    <link></link>
+    <author>VV Group</author>
+    <description>
+        <![CDATA[  <h1 style="color:red">Custom drop menu</h1> <br/>]]>
+    </description>
+</plugin>
