@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../engine/Shopware/Components/Plugin/schema/plugin.xsd">
+    <label lang="de">Plätzchen-Frontend</label>
+    <label lang="en">Cookie frontend</label>
+    <version>1.0.0</version>
+    <link>http://www.itdelight.com</link>
+    <author>IT Delight</author>
+    <compatibility minVersion="5.2.0" />
+</plugin>
