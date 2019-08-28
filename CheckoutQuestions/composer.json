@@ -1,0 +1,9 @@
+{
+  "name": "bolanics/shop-plugin-checkout-questions",
+  "type": "shopware-plugin",
+  "description": "",
+  "license": "proprietary",
+  "extra": {
+    "installer-name": "CheckoutQuestions"
+  }
+}

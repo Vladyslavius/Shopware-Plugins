@@ -1,0 +1,136 @@
+.questions--form-field-label {
+	display: inline-block;
+	width: 20%;
+	padding-right: 20px;
+	vertical-align: middle;
+}
+.questions--content-form {
+    font-size: 0px;
+}
+.questions--form-field-label .label--title {
+    font-size: 14px;
+    display: inline;
+    vertical-align: middle;
+}
+
+.questions--form-field-input {
+    display: inline-block;
+    vertical-align: middle;
+    width: 80%;
+}
+.questions--checkbox-box {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 20px;
+}
+
+.questions--checkbox-box input {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-appearance: none;
+    width: 18px;
+    height: 18px;
+    border: 1px solid #babbbd;
+    outline: 0px;
+    background: #fff;
+}
+.questions--checkbox-box input:checked {
+	background: url(../img/checked.svg) no-repeat center;
+	background-size: 13px;
+}
+
+.questions--checkbox-box label {
+    vertical-align: middle;
+    margin: 0px 0px 0px 8px;
+    display: inline-block;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.questions--form-field {
+    margin-bottom: 25px;
+}
+
+.questions--input-box {}
+
+.questions--input-box input {
+    border: 1px solid #babbbd;
+    color: #babbbd;
+    height: 40px;
+    box-shadow: 0 0 0;
+    background: #fff;
+}
+
+.questions--content-wrapper {
+    padding-top: 50px;
+}
+
+.questions--content-wrapper h2 {
+    font-size: 16px;
+    border-bottom: 1px solid #3a528e;
+    margin: 0px 0px 40px 0px;
+    padding: 0px 0px 15px 0px;
+    font-family: GothamBold;
+}
+
+.questions--form-field {
+	padding: 8px;
+}
+
+.error-in-field {
+	border: 1px solid #d9400b;
+	border-radius: 3px;
+}
+
+.questions--form-button-box {position: relative;top: -50px;}
+.questions--form-field-label .tooltip-box {
+    font-size: 16px;
+    display: inline-block;
+    vertical-align: middle;
+    font-family: GothamBold;
+    text-align: center;
+    color: #3a528e;
+    position: relative;
+}
+
+.questions--form-field-label .tooltip-box .tooltiptext {
+    font-family: "GothamBook", sans-serif;
+    position: absolute;
+    font-size: 12px;
+    color: #424241;
+    background: #eaeaea;
+    padding: 4px 8px;
+    border-radius: 4px;
+    text-align: left;
+    white-space: nowrap;
+    top: -20px;
+    left: 10px;
+    display: none;
+}
+
+.questions--form-field-label .tooltip-box:hover .tooltiptext {
+    display: block;
+}
+.questions--form-field-label .tooltip-box b {background: url(../img/info-sign.svg) no-repeat center;background-size: 20px;display: block;font-size: 0px;width: 24px;height: 24px;transition: 0.3s;}
+
+.questions--form-field-label .tooltip-box .tooltiptext {
+    font-family: "GothamBook", sans-serif;
+    position: absolute;
+    font-size: 12px;
+    color: #424241;
+    background: #eaeaea;
+    padding: 4px 8px;
+    border-radius: 4px;
+    text-align: left;
+    white-space: nowrap;
+    top: -20px;
+    left: 10px;
+    display: none;
+}
+
+.questions--form-field-label .tooltip-box:hover .tooltiptext {
+    display: block;
+}
+.questions--form-field-label .tooltip-box b:hover {
+    opacity: 0.7;
+}
