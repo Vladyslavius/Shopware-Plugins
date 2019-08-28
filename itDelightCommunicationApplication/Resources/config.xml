@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/shopware/shopware/5.3/engine/Shopware/Components/Plugin/schema/config.xsd">
+    <elements>
+        <element required="true" type="mediaselection" scope="locale">
+            <name>indexTopBanner</name>
+            <label lang="de">Top index banner</label>
+            <label lang="en">Top index banner</label>
+            <value></value>
+        </element>
+        <element required="true" type="text" scope="locale">
+            <name>cmsStaticPaymentAndDeliveryConditions</name>
+            <label lang="de">Versand und Zahlungsbedingungen (id)</label>
+            <label lang="en">Versand und Zahlungsbedingungen (id)</label>
+            <value>6</value>
+        </element>
+        <element required="true" type="text" scope="locale">
+            <name>cmsStaticReturnConditions</name>
+            <label lang="de">Widerrufsrecht (id)</label>
+            <label lang="en">Widerrufsrecht (id)</label>
+            <value>8</value>
+        </element>
+        <element required="true" type="text" scope="locale">
+            <name>cmsStaticPrivacyPolicy</name>
+            <label lang="de">Datenschutz (id)</label>
+            <label lang="en">Datenschutz (id)</label>
+            <value>7</value>
+        </element>
+        <element required="true" type="text" scope="locale">
+            <name>cmsStaticContacts</name>
+            <label lang="de">Impressum (id)</label>
+            <label lang="en">Impressum (id)</label>
+            <value>3</value>
+        </element>
+        <element required="true" type="text" scope="locale">
+            <name>cmsStaticCareer</name>
+            <label lang="de">Karriere (id)</label>
+            <label lang="en">Karriere (id)</label>
+            <value>48</value>
+        </element>
+    </elements>
+</config>
