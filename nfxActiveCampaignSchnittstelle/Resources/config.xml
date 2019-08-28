@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/shopware/shopware/5.3/engine/Shopware/Components/Plugin/schema/config.xsd">
+    <elements>
+        <element required="true" type="number" scope="locale">
+            <name>nfx_transfer_time</name>
+            <label lang="de">The interval of transferred data(minutes)</label>
+            <label lang="en">The interval of transferred data(minutes)</label>
+            <value>1200</value>
+        </element>
+        <element required="true" type="number" scope="locale">
+            <name>contact_custom_field_country</name>
+            <label lang="de">Contact custom field country</label>
+            <label lang="en">Contact custom field country</label>
+            <value>1</value>
+        </element>
+        <element required="true" type="number" scope="locale">
+            <name>contact_custom_field_city</name>
+            <label lang="de">Contact custom field city</label>
+            <label lang="en">Contact custom field city</label>
+            <value>4</value>
+        </element>
+        <element required="true" type="number" scope="locale">
+            <name>contact_custom_field_street</name>
+            <label lang="de">Contact custom field street</label>
+            <label lang="en">Contact custom field street</label>
+            <value>2</value>
+        </element>
+        <element required="true" type="number" scope="locale">
+            <name>contact_custom_field_zipcode</name>
+            <label lang="de">Contact custom field zipcode</label>
+            <label lang="en">Contact custom field zipcode</label>
+            <value>3</value>
+        </element>
+        <element required="true" type="number" scope="locale">
+            <name>contact_custom_field_salutation</name>
+            <label lang="de">Contact custom field salutation</label>
+            <label lang="en">Contact custom field salutation</label>
+            <value>6</value>
+        </element>
+        <element required="true" type="number" scope="locale">
+            <name>contact_custom_field_bonus_system</name>
+            <label lang="de">Contact custom field bonus system</label>
+            <label lang="en">Contact custom field bonus system</label>
+            <value>5</value>
+        </element>
+        <element required="true" type="text" scope="locale">
+            <name>tracking_code</name>
+            <label lang="de">Tracking code</label>
+            <label lang="en">Tracking code</label>
+            <value></value>
+        </element>
+        <element required="true" type="mediaselection" scope="locale">
+            <name>logo_ac</name>
+            <label lang="de">Logo AC</label>
+            <label lang="en">Logo AC</label>
+            <value></value>
+        </element>
+
+        <element required="true" type="number" scope="locale">
+            <name>contact_custom_field_pr_image_1</name>
+            <label lang="de">Contact custom field product image 1</label>
+            <label lang="en">Contact custom field product image 1</label>
+            <value>7</value>
+        </element>
+        <element required="true" type="number" scope="locale">
+            <name>contact_custom_field_pr_name_1</name>
+            <label lang="de">Contact custom field product name 1</label>
+            <label lang="en">Contact custom field product name 1</label>
+            <value>8</value>
+        </element>
+        <element required="true" type="number" scope="locale">
+            <name>contact_custom_field_pr_desc_1</name>
+            <label lang="de">Contact custom field product desc 1</label>
+            <label lang="en">Contact custom field product desc 1</label>
+            <value>9</value>
+        </element>
+        <element required="true" type="number" scope="locale">
+            <name>contact_custom_field_pr_price_1</name>
+            <label lang="de">Contact custom field product price 1</label>
+            <label lang="en">Contact custom field product price 1</label>
+            <value>10</value>
+        </element>
+        <element required="true" type="number" scope="locale">
+            <name>contact_custom_field_pr_pseudo_price_1</name>
+            <label lang="de">Contact custom field product pseudo price 1</label>
+            <label lang="en">Contact custom field product pseudo price 1</label>
+            <value>11</value>
+        </element>
+
+        <element required="true" type="number" scope="locale">
+            <name>contact_custom_field_pr_image_2</name>
+            <label lang="de">Contact custom field product image 2</label>
+            <label lang="en">Contact custom field product image 2</label>
+            <value>12</value>
+        </element>
+        <element required="true" type="number" scope="locale">
+            <name>contact_custom_field_pr_name_2</name>
+            <label lang="de">Contact custom field product name 2</label>
+            <label lang="en">Contact custom field product name 2</label>
+            <value>13</value>
+        </element>
+        <element required="true" type="number" scope="locale">
+            <name>contact_custom_field_pr_desc_2</name>
+            <label lang="de">Contact custom field product desc 2</label>
+            <label lang="en">Contact custom field product desc 2</label>
+            <value>14</value>
+        </element>
+        <element required="true" type="number" scope="locale">
+            <name>contact_custom_field_pr_price_2</name>
+            <label lang="de">Contact custom field product price 2</label>
+            <label lang="en">Contact custom field product price 2</label>
+            <value>15</value>
+        </element>
+        <element required="true" type="number" scope="locale">
+            <name>contact_custom_field_pr_pseudo_price_2</name>
+            <label lang="de">Contact custom field product pseudo price 2</label>
+            <label lang="en">Contact custom field product pseudo price 2</label>
+            <value>16</value>
+        </element>
+
+        <element required="true" type="number" scope="locale">
+            <name>contact_custom_field_pr_image_3</name>
+            <label lang="de">Contact custom field product image 3</label>
+            <label lang="en">Contact custom field product image 3</label>
+            <value>17</value>
+        </element>
+        <element required="true" type="number" scope="locale">
+            <name>contact_custom_field_pr_name_3</name>
+            <label lang="de">Contact custom field product name 3</label>
+            <label lang="en">Contact custom field product name 3</label>
+            <value>18</value>
+        </element>
+        <element required="true" type="number" scope="locale">
+            <name>contact_custom_field_pr_desc_3</name>
+            <label lang="de">Contact custom field product desc 3</label>
+            <label lang="en">Contact custom field product desc 3</label>
+            <value>19</value>
+        </element>
+        <element required="true" type="number" scope="locale">
+            <name>contact_custom_field_pr_price_3</name>
+            <label lang="de">Contact custom field product price 3</label>
+            <label lang="en">Contact custom field product price 3</label>
+            <value>20</value>
+        </element>
+        <element required="true" type="number" scope="locale">
+            <name>contact_custom_field_pr_pseudo_price_3</name>
+            <label lang="de">Contact custom field product pseudo price 3</label>
+            <label lang="en">Contact custom field product pseudo price 3</label>
+            <value>21</value>
+        </element>
+
+        <element required="true" type="number" scope="locale">
+            <name>contact_custom_field_pr_image_4</name>
+            <label lang="de">Contact custom field product image 4</label>
+            <label lang="en">Contact custom field product image 4</label>
+            <value>22</value>
+        </element>
+        <element required="true" type="number" scope="locale">
+            <name>contact_custom_field_pr_name_4</name>
+            <label lang="de">Contact custom field product name 4</label>
+            <label lang="en">Contact custom field product name 4</label>
+            <value>23</value>
+        </element>
+        <element required="true" type="number" scope="locale">
+            <name>contact_custom_field_pr_desc_4</name>
+            <label lang="de">Contact custom field product desc 4</label>
+            <label lang="en">Contact custom field product desc 4</label>
+            <value>24</value>
+        </element>
+        <element required="true" type="number" scope="locale">
+            <name>contact_custom_field_pr_price_4</name>
+            <label lang="de">Contact custom field product price 4</label>
+            <label lang="en">Contact custom field product price 4</label>
+            <value>26</value>
+        </element>
+        <element required="true" type="number" scope="locale">
+            <name>contact_custom_field_pr_pseudo_price_4</name>
+            <label lang="de">Contact custom field product pseudo price 4</label>
+            <label lang="en">Contact custom field product pseudo price 4</label>
+            <value>25</value>
+        </element>
+
+        <element required="true" type="number" scope="locale">
+            <name>contact_custom_field_pr_image_5</name>
+            <label lang="de">Contact custom field product image 5</label>
+            <label lang="en">Contact custom field product image 5</label>
+            <value>27</value>
+        </element>
+        <element required="true" type="number" scope="locale">
+            <name>contact_custom_field_pr_name_5</name>
+            <label lang="de">Contact custom field product name 5</label>
+            <label lang="en">Contact custom field product name 5</label>
+            <value>28</value>
+        </element>
+        <element required="true" type="number" scope="locale">
+            <name>contact_custom_field_pr_desc_5</name>
+            <label lang="de">Contact custom field product desc 5</label>
+            <label lang="en">Contact custom field product desc 5</label>
+            <value>29</value>
+        </element>
+        <element required="true" type="number" scope="locale">
+            <name>contact_custom_field_pr_price_5</name>
+            <label lang="de">Contact custom field product price 5</label>
+            <label lang="en">Contact custom field product price 5</label>
+            <value>30</value>
+        </element>
+        <element required="true" type="number" scope="locale">
+            <name>contact_custom_field_pr_pseudo_price_5</name>
+            <label lang="de">Contact custom field product pseudo price 5</label>
+            <label lang="en">Contact custom field product pseudo price 5</label>
+            <value>31</value>
+        </element>
+        <element required="false" type="number" scope="locale">
+            <name>contact_custom_field_next_expiring_bonus_points</name>
+            <label lang="de">Contact custom field next expiring bonus points</label>
+            <label lang="en">Contact custom field next expiring bonus points</label>
+            <value>32</value>
+        </element>
+        <element required="false" type="number" scope="locale">
+            <name>contact_custom_field_next_expiring_bonus_points_date</name>
+            <label lang="de">Contact custom field next expiring bonus points date</label>
+            <label lang="en">Contact custom field next expiring bonus points date</label>
+            <value>33</value>
+        </element>
+        <element required="true" type="text" scope="locale">
+            <name>apiToken</name>
+            <label lang="de">Api Token</label>
+            <label lang="en">Api Token</label>
+            <value>41864c0d27a94cf7f356e46ed7285948d62304c2e39d179b95ba722a47bf864ae5f0bd76</value>
+        </element>
+        <element required="true" type="text" scope="locale">
+            <name>apiUrl</name>
+            <label lang="de">Api Url</label>
+            <label lang="en">Api Url</label>
+            <value>https://nfxdev.activehosted.com/api/3/</value>
+        </element>
+        <element required="true" type="number" scope="locale">
+            <name>connectionID</name>
+            <label lang="de">connectionID</label>
+            <label lang="en">connectionID</label>
+            <value>1</value>
+        </element>
+    </elements>
+</config>

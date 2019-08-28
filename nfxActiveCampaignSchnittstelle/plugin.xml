@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="../../../engine/Shopware/Components/Plugin/schema/plugin.xsd">
+    <label lang="de">Active Campaign Schnittstelle</label>
+    <label lang="en">Active Campaign Schnittstelle</label>
+    <version>1.1.0</version>
+    <author>nfx:MEDIA</author>
+    <description></description>
+    
+    <changelog version="1.1.0">
+        <changes lang="en">add the expiring bonus points + add logging + export only customers with orders + do not send orders without customerId // 2019-07-26</changes>
+    </changelog>
+</plugin>
