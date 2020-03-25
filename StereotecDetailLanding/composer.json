@@ -1,0 +1,24 @@
+{
+    "name": "stereotec/detail-extension-plugin",
+    "description": "Extend Detail with Landing pages",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Stereotec"
+        }
+    ],
+    "type": "shopware-platform-plugin",
+    "autoload": {
+        "psr-4": {
+            "Stereotec\\DetailExtension\\": "src/"
+        }
+    },
+    "extra": {
+        "shopware-plugin-class": "Stereotec\\DetailExtension\\DetailExtension",
+        "copyright": "(c) by It Stereotec AG",
+        "label": {
+            "de-DE": "Detail Extension",
+            "en-GB": "Detail Extension"
+        }
+    }
+}
